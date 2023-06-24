@@ -13,14 +13,15 @@
     margin: 90px auto;
     outline: 3px solid moccasin;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .item
 {
-    width: 50%;
-    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
     background: rgb(211, 171, 96);
 }
