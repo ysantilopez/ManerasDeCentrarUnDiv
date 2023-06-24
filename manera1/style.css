@@ -14,12 +14,11 @@
     outline: 3px solid moccasin;
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .item
 {
+    margin: auto; /*Margin en conjunto de display flex*/
     width: 50%;
     height: 50%;
     background: rgb(211, 171, 96);
