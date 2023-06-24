@@ -13,9 +13,8 @@
     margin: 90px auto;
     outline: 3px solid moccasin;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .item
