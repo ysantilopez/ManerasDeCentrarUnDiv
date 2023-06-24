@@ -1,0 +1,26 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    background: rgb(17,17,27);
+}
+
+.container
+{
+    width: 90%;
+    height: 500px;
+    margin: 90px auto;
+    outline: 3px solid moccasin;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item
+{
+    width: 50%;
+    height: 50%;
+    background: rgb(211, 171, 96);
+}
